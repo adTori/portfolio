@@ -136,9 +136,9 @@ page.about {
   background-image: url("https://images.unsplash.com/photo-1697185678609-de59abf2de9c");
 } */
 
-/* .contact {
-  background-image: url("https://images.unsplash.com/photo-1443632826930-7e5bc4aa7fa0");
-} */
+.contact {
+  background-image: url("https://images.unsplash.com/photo-1627992347826-6345c5b2771c");
+}
 
 .title {
   color: white;
@@ -146,6 +146,11 @@ page.about {
   background: rgba(0,0,0,0.5);
   padding: 20px;
   margin: 20px;
+}
+
+.title a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .content {
