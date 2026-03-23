@@ -21,6 +21,10 @@ page.about {
     text-align: center;
 }
 
+page.contact {
+    margin: 20px;
+}
+
 /* NAVBAR */
 .navbar {
   position: fixed;
