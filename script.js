@@ -15,7 +15,15 @@ links.forEach(link => {
 
     // byt sida
     pages.forEach(p => p.classList.remove("active"));
-    document.querySelector("." + link.dataset.page).classList.add("active");
+    const currentPage = document.querySelector("." + link.dataset.page);
+    currentPage.classList.add("active");
+
+    // ✅ lägg till/ta bort body-klass för att gömma namnet
+    if (link.dataset.page === "home") {
+      document.body.classList.add("home-active");
+    } else {
+      document.body.classList.remove("home-active");
+    }
 
     // stäng meny
     navList.classList.remove("show");
