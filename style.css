@@ -10,7 +10,9 @@ body {
 }
 
 h1 {
-  font-family: advent pro;
+  font-family: 'Alfa Slab One', serif;
+  color: rgba(0, 0, 0, 0.577);
+  letter-spacing: 2px;
 }
 
 h1, h2 {
@@ -241,5 +243,5 @@ page.contact {
 }
 
 #forward {
-  color: rgba(0, 0, 0, 0.246);
+  color: rgba(0, 0, 0, 0.361);
 }
