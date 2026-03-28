@@ -225,23 +225,40 @@ page.contact {
   transform: scale(1.1);
 }
 
+.qr {
+  border: black;
+  border-radius: 6px;
+}
+
 #name {
   color: black;
 }
 
 #developer {
   font-size: 30px;
+  text-decoration: underline;
+  color: rgb(137, 6, 6);
 }
 
 #about {
-  background: rgba(255, 255, 255, 0.412);
-  margin-right: 40px;
+  background: rgb(255, 255, 255);
+  margin-right: 80px;
   padding: 10px;
-  border: 2px solid rgba(0, 0, 0, 0.494);
+  /* border: 2px solid rgba(0, 0, 0, 0.494); */
   border-radius: 6px;
-  border-style: groove;
+  /* border-style: groove; */
+}
+
+#abTitle {
+  color: rgb(137, 6, 6);
+  /* text-decoration: underline; */
 }
 
 #forward {
-  color: rgba(0, 0, 0, 0.361);
+  color: rgba(0, 0, 0, 0.537);
+  bottom: 2px;
+}
+
+#mail {
+  color: rgb(137, 6, 6);
 }
