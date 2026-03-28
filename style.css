@@ -203,6 +203,10 @@ page.contact {
   transform: scale(1.1);
 }
 
+#developer {
+  font-size: 30px;
+}
+
 #about {
   background: rgba(255, 255, 255, 0.412);
   margin-right: 40px;
