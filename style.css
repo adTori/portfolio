@@ -14,7 +14,8 @@ h1 {
 }
 
 p {
-    color: rgb(0, 0, 0);
+    color: rgb(51, 48, 48);
+    font-size: large;
 }
 
 page.about {
@@ -41,7 +42,7 @@ page.contact {
   right: 40px;
   top: 10px;
   width: 40px;
-  height: 40px;
+  height: 60px;
   cursor: pointer;
 }
 
@@ -53,9 +54,9 @@ page.contact {
   transition: 0.4s;
 }
 
-.toggle-btn span:nth-child(1) { top: 10px; }
-.toggle-btn span:nth-child(2) { top: 18px; }
-.toggle-btn span:nth-child(3) { top: 26px; }
+.toggle-btn span:nth-child(1) { top: 15px; }
+.toggle-btn span:nth-child(2) { top: 28px; }
+.toggle-btn span:nth-child(3) { top: 41px; }
 
 /* X */
 .toggle-btn.active span:nth-child(2) {
@@ -129,25 +130,25 @@ page.contact {
 
 /* BACKGROUNDS */
 .home {
-  background-image: url("https://sv.vecteezy.com/foton/47735892-en-mystisk-sten-podium-i-dramatisk-ljus-mot-en-mork-rokig-bakgrund-skapande-en-mystisk-scen");
+  background-image: url("https://images.pexels.com/photos/13934812/pexels-photo-13934812.jpeg");
 }
 
-/* .about {
-  background-image: url("https://images.unsplash.com/photo-1443632826930-7e5bc4aa7fa0");
-} */
+.project {
+  background-image: url("https://images.pexels.com/photos/13934812/pexels-photo-13934812.jpeg");
+}
 
-/* .project {
-  background-image: url("https://images.unsplash.com/photo-1697185678609-de59abf2de9c");
-} */
+.about {
+  background-image: url("https://images.pexels.com/photos/13934812/pexels-photo-13934812.jpeg");
+}
 
 .contact {
-  background-image: url("https://images.unsplash.com/photo-1627992347826-6345c5b2771c");
+  background-image: url("https://images.pexels.com/photos/13934812/pexels-photo-13934812.jpeg");
 }
 
 .title {
-  color: white;
+  color: rgb(28, 28, 28);
   font-size: 4rem;
-  background: rgba(0,0,0,0.5);
+  /* background: rgba(0,0,0,0.5); */
   padding: 20px;
   margin: 20px;
 }
